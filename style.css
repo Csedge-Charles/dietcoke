@@ -1,11 +1,19 @@
-h2{
-    background-color: aqua;
+#div {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+    gap: 20px;
+    background-color: darkcyan;
 }
 
-#img{
- width: 80%;
-height: 100%;
+h2{
+    background-color: blue;
 }
-a href{
+#img {
+    width: 80%;
+    height: 100%;
+}
+
+#href {
     background-color: cadetblue;
 }
