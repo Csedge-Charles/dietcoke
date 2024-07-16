@@ -8,6 +8,24 @@
 
 h2{
     background-color: blue;
+    width: 150px;
+    transition: width 3s;
+    animation-name: multiplecolors;
+    animation-duration: 4s;
+    animation-iteration-count: infinite;
+
+}
+@keyframes colorswitch {
+    from {background-color: aqua;};
+    to {background-color: green;}
+
+}
+@keyframes multiplecolors{
+    0%{background-color: red;}
+    25%{background-color: green;}
+    50%{background-color: teal;}
+    75%{background-color: violet;}
+    100%{background-color: aqua;}
 }
 #img {
     width: 80%;
@@ -16,4 +34,15 @@ h2{
 
 #href {
     background-color: cadetblue;
+}
+
+h2:hover{
+    background-color: rgb(12, 121, 12);
+    width: 200px;
+    font: large;
+}
+
+img:hover{
+    width: 400px;
+    height: 400px;
 }
