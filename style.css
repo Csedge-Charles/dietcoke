@@ -1,10 +1,4 @@
-#div {
-    display: flex;
-    justify-content: center;
-    flex-wrap: wrap;
-    gap: 20px;
-    background-color: darkcyan;
-}
+
 
 h2{
     background-color: blue;
@@ -45,4 +39,20 @@ h2:hover{
 img:hover{
     width: 400px;
     height: 400px;
+}
+
+#milk{
+    transform: translate(230px, -220px);
+}
+
+#bread{
+    transform: translate(460px, -885px);
+}
+
+#tortillas{
+    transform: translate(690px, -439px);
+}
+
+#lays{
+    transform: translate(920px, -662px)
 }
